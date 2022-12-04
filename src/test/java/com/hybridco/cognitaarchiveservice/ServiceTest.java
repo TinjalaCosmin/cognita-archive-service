@@ -17,7 +17,7 @@ public class ServiceTest {
 
     @Test
     void tester() {
-        when(service.get()).thenReturn("helllo");
+        when(service.get()).thenReturn("helll");
         var test = service.get();
         assertThat(test).isEqualTo("helllo");
     }
